@@ -1,7 +1,7 @@
 // Service worker do Caderno SESA: guarda o app para abrir sem internet.
 // Página: tenta a rede primeiro (para pegar atualizações) e cai no que está guardado.
 // Fontes e pdf.js (CDN): usa o guardado e atualiza em segundo plano.
-const CACHE = "caderno-sesa-jwnv49";
+const CACHE = "caderno-sesa-99d3k2";
 const BASE = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 const CDN = /^https:\/\/(fonts\.googleapis\.com|fonts\.gstatic\.com|cdnjs\.cloudflare\.com)\//;
 
